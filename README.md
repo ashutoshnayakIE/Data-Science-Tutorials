@@ -14,4 +14,4 @@ It is extremely important that we know our data, that is what does each predicto
 
 ## From Information theory to Cross-entropy
 Information theory is everywhere with a lot of tutorials on entropy, information etc. But I could not find something that could help me understand why we are using the information theory the way we use it. The following blog is a short walk with history of information theory and how it is connected to one of the most commonly used loss function: cross entropy. <br>
-https://medium.com/p/456b34fd939d/edit
+https://towardsdatascience.com/cross-entropy-from-an-information-theory-point-of-view-456b34fd939d
