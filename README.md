@@ -7,9 +7,9 @@ https://github.com/ashutoshnayakIE/Data-Science-Tutorials/blob/master/LIME%20and
 
 ## Endogeneity: Why it is important to know the data (3 part blog)
 It is extremely important that we know our data, that is what does each predictor variable means. If we know the data, we know what transformations could make sense and even whihc model should we select (for example, if normality assumptions are valid, we can go for OLS, otherwise, we should go for OLD after transformation, if it is a count data, we cannot use OLS but need to poisson regression etc.). Apart from knowing the different predictor variables, we need to know how the data was generated or collected. The data engineering team should know the model based on which coupons were send to the customers, if this information is known, model could be biased. The following three part tutorial provides an introduction to one such issue caused by lack of information of how data was generated: endogeneity, which violates one of the basic principles of causal inference: randomnization.<br>
-1) https://medium.com/@ashutoshnayakkgp/endogeneity-the-reason-why-we-should-know-about-data-part-i-80ec33df66ae?postPublishedType=repub
-2) https://medium.com/@ashutoshnayakkgp/endogeneity-the-reason-why-we-should-know-about-data-part-ii-c1487d69aeed?postPublishedType=initial
-3) https://medium.com/@ashutoshnayakkgp/endogeneity-the-reason-why-we-should-know-about-data-part-iii-50380e0d996e?postPublishedType=initial
+1) https://towardsdatascience.com/endogeneity-the-reason-why-we-should-know-about-data-part-i-80ec33df66ae
+2) https://towardsdatascience.com/endogeneity-the-reason-why-we-should-know-about-data-part-ii-c1487d69aeed
+3) https://towardsdatascience.com/endogeneity-the-reason-why-we-should-know-about-data-part-iii-50380e0d996e
 
 
 ## From Information theory to Cross-entropy
