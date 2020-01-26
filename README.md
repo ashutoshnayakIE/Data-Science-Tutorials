@@ -2,7 +2,7 @@
 This repository includes short tutorial on specific data science concepts. Although the topics might seem little scattered and random, I came across these topics when working on my research and seemed to me like these are not well covered (in explainable format in forums like medium, you tube as a follow up to the research papers). The links to the tutorials are:
 
 ## XGBoost
-XGboost is well known machine learning algorithm. XGBoost is famously been used in multiple Kaggle competition winning solutions. While there are a lot of resources on how to implement XGBoost, how to interpret and improve XGBoost models, the following blog talks about how new trees are generated in XGBoost (very similar to boosted trees algorithm). 
+XGboost is well known machine learning algorithm. XGBoost is famously been used in multiple Kaggle competition winning solutions. While there are a lot of resources on how to implement XGBoost, how to interpret and improve XGBoost models, the following blog talks about how new trees are generated in XGBoost (very similar to boosted trees algorithm). <br>
 https://towardsdatascience.com/xgboost-an-intuitive-explanation-88eb32a48eff
 
 ## A/B Testing
@@ -14,17 +14,17 @@ The different topics we cover in this project are below. The toy example is buil
 4. Designing the Experiment
 5. Analyzing results
 6. Bayesian approch to A/B Testing
-7. Profit maximizing of A/B Testing (Marketing Science article)
+7. Profit maximizing of A/B Testing (Marketing Science article)<br>
 https://github.com/ashutoshnayakIE/ABTesting
 
 ## Thompson Sampling
 A tutorial explaining what is Thompson sampling, how it is different from greedy and $\epsilon$-greedy algorithm and how it can be 
-implemented. We also show a small toy example for understanding how Thompson samplling is different from greedy-algorithm. It is python notebook where you can go through the theoretical foundations along with the code.
+implemented. We also show a small toy example for understanding how Thompson samplling is different from greedy-algorithm. It is python notebook where you can go through the theoretical foundations along with the code.<br>
 https://github.com/ashutoshnayakIE/RL/blob/master/ThompsonSampling.ipynb
 
 ## Hyper-parameter Optimization
 Hyper-parameter optimizatio in important when the optimization function is very complex (example complex Machine learning algorithms).
-This is a tutorial on hyper-parameter example with a toy problem using hyperOpt. It explains what are we doing when we say hyper-paramete optimization. We also show an example its implementation in python. After this tutorial, you should be able to implement bayesian optimization procedure along with understanding the theoretical background for it.
+This is a tutorial on hyper-parameter example with a toy problem using hyperOpt. It explains what are we doing when we say hyper-paramete optimization. We also show an example its implementation in python. After this tutorial, you should be able to implement bayesian optimization procedure along with understanding the theoretical background for it.<br>
 https://github.com/ashutoshnayakIE/hyper_parameter_optimization
 
 ## Primer on LIME and Shapley
