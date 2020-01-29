@@ -1,10 +1,6 @@
 # Data-Science-Tutorials
 This repository includes short tutorial on specific data science concepts. Although the topics might seem little scattered and random, I came across these topics when working on my research and seemed to me like these are not well covered (in explainable format in forums like medium, you tube as a follow up to the research papers). The links to the tutorials are:
 
-## XGBoost
-XGboost is well known machine learning algorithm. XGBoost is famously been used in multiple Kaggle competition winning solutions. While there are a lot of resources on how to implement XGBoost, how to interpret and improve XGBoost models, the following blog talks about how new trees are generated in XGBoost (very similar to boosted trees algorithm). <br>
-https://towardsdatascience.com/xgboost-an-intuitive-explanation-88eb32a48eff
-
 ## A/B Testing
 This is a theoretical guide with an interactive toy example for AB testing (split testing). We go through different topics of A/B testing -- how to choose the metrics, design the experiments and analyze the results after running the experiments. We also cover some statistical background required for A/B testing. We build an interactive toy example to learn how to analyze results from A/B testing.
 The different topics we cover in this project are below. The toy example is built along with the theoretical background.
@@ -17,6 +13,10 @@ The different topics we cover in this project are below. The toy example is buil
 7. Profit maximizing of A/B Testing (Marketing Science article)<br>
 https://github.com/ashutoshnayakIE/ABTesting
 
+## MCMC
+Markov Chain Monte Crlo has been recognized as the one of top 10 algorithms of the 20th century. In this tutorial, we through what is MCMC, what is the coreidea and how to implement fidderent MCMC algorithms in python. At the end of the tutorial, you should be able to get the ideao of MCMC and implement it in python. The repository can be found in the link below.<br>
+https://github.com/ashutoshnayakIE/MCMC
+
 ## Thompson Sampling
 A tutorial explaining what is Thompson sampling, how it is different from greedy and $\epsilon$-greedy algorithm and how it can be 
 implemented. We also show a small toy example for understanding how Thompson samplling is different from greedy-algorithm. It is python notebook where you can go through the theoretical foundations along with the code.<br>
@@ -26,6 +26,11 @@ https://github.com/ashutoshnayakIE/RL/blob/master/ThompsonSampling.ipynb
 Hyper-parameter optimizatio in important when the optimization function is very complex (example complex Machine learning algorithms).
 This is a tutorial on hyper-parameter example with a toy problem using hyperOpt. It explains what are we doing when we say hyper-paramete optimization. We also show an example its implementation in python. After this tutorial, you should be able to implement bayesian optimization procedure along with understanding the theoretical background for it.<br>
 https://github.com/ashutoshnayakIE/hyper_parameter_optimization
+
+
+## XGBoost
+XGboost is well known machine learning algorithm. XGBoost is famously been used in multiple Kaggle competition winning solutions. While there are a lot of resources on how to implement XGBoost, how to interpret and improve XGBoost models, the following blog talks about how new trees are generated in XGBoost (very similar to boosted trees algorithm). <br>
+https://towardsdatascience.com/xgboost-an-intuitive-explanation-88eb32a48eff
 
 ## Primer on LIME and Shapley
 It is important that our machine learning models are not only performs well in out of sample data, it should be interpretable. LIME and SHAP are two model agnostic models for interpreting machine learning models. There is a lot of tutorial on how to use LIME and SHAP, the following blog is a short tutorial to understanding LIME and SHAP at the lowest conceptual level. <br>
