@@ -1,33 +1,6 @@
 # Data-Science-Tutorials
 This repository includes short tutorial on specific data science concepts. Although the topics might seem little scattered and random, I came across these topics when working on my research and seemed to me like these are not well covered (in explainable format in forums like medium, you tube as a follow up to the research papers). The links to the tutorials are:
 
-## A/B Testing
-This is a theoretical guide with an interactive toy example for AB testing (split testing). We go through different topics of A/B testing -- how to choose the metrics, design the experiments and analyze the results after running the experiments. We also cover some statistical background required for A/B testing. We build an interactive toy example to learn how to analyze results from A/B testing.
-The different topics we cover in this project are below. The toy example is built along with the theoretical background.
-1. Introduction
-2. Statistical Background
-3. Selecting the Metrics for A/B Testing
-4. Designing the Experiment
-5. Analyzing results
-6. Bayesian approch to A/B Testing
-7. Profit maximizing of A/B Testing (Marketing Science article)<br>
-https://github.com/ashutoshnayakIE/ABTesting
-
-## MCMC
-Markov Chain Monte Crlo has been recognized as the one of top 10 algorithms of the 20th century. In this tutorial, we through what is MCMC, what is the coreidea and how to implement fidderent MCMC algorithms in python. At the end of the tutorial, you should be able to get the ideao of MCMC and implement it in python. The repository can be found in the link below.<br>
-https://github.com/ashutoshnayakIE/MCMC
-
-## Thompson Sampling
-A tutorial explaining what is Thompson sampling, how it is different from greedy and $\epsilon$-greedy algorithm and how it can be 
-implemented. We also show a small toy example for understanding how Thompson samplling is different from greedy-algorithm. It is python notebook where you can go through the theoretical foundations along with the code.<br>
-https://github.com/ashutoshnayakIE/RL/blob/master/ThompsonSampling.ipynb
-
-## Hyper-parameter Optimization
-Hyper-parameter optimizatio in important when the optimization function is very complex (example complex Machine learning algorithms).
-This is a tutorial on hyper-parameter example with a toy problem using hyperOpt. It explains what are we doing when we say hyper-paramete optimization. We also show an example its implementation in python. After this tutorial, you should be able to implement bayesian optimization procedure along with understanding the theoretical background for it.<br>
-https://github.com/ashutoshnayakIE/hyper_parameter_optimization
-
-
 ## XGBoost
 XGboost is well known machine learning algorithm. XGBoost is famously been used in multiple Kaggle competition winning solutions. While there are a lot of resources on how to implement XGBoost, how to interpret and improve XGBoost models, the following blog talks about how new trees are generated in XGBoost (very similar to boosted trees algorithm). <br>
 https://towardsdatascience.com/xgboost-an-intuitive-explanation-88eb32a48eff
@@ -46,3 +19,8 @@ It is extremely important that we know our data, that is what does each predicto
 ## From Information theory to Cross-entropy
 Information theory is everywhere with a lot of tutorials on entropy, information etc. But I could not find something that could help me understand why we are using the information theory the way we use it. The following blog is a short walk with history of information theory and how it is connected to one of the most commonly used loss function: cross entropy. <br>
 https://towardsdatascience.com/cross-entropy-from-an-information-theory-point-of-view-456b34fd939d
+
+
+## Akaike information criteria
+All of us have used AIC for model selection. This blog is about the idea behind AIC, what is it and why is it used for model selection. While we have been told how to calculate AIC, at least I was never taught the logic behind why are we doing this — this blog aims to cover that.
+https://towardsdatascience.com/akaike-information-criteria-942d1f554537
